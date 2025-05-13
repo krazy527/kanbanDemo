@@ -22,13 +22,21 @@ Visual Accents: React Icons for clear and intuitive iconography.
 The codebase is organized for clarity and maintainability:
 
 📁 src
+
 ┣ 📂 components   // Houses reusable UI elements like TaskCard, Column, etc.
+
 ┣ 📂 hooks        // Contains any custom React hooks developed for the project.
+
 ┣ 📂 utils        // Stores utility functions, such as the debounce mechanism.
+
 ┣ 📄 App.jsx       // The heart of the application, orchestrating all components.
+
 ┣ 📄 main.jsx      // Entry point for rendering the React application.
+
 ┣ 📄 db.json       // The JSON file acting as the database for JSON Server.
+
 ┣ 📄 index.css     // Global styles and TailwindCSS base configuration.
+
 ┣ 📄 tailwind.config.js // Configuration file for TailwindCSS.
 
 🧑‍💻 Get Started in Minutes
