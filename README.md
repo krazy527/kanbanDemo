@@ -23,13 +23,21 @@ The codebase is organized for clarity and maintainability:
 
 📁 src
 ┣ 📂 components   // Houses reusable UI elements like TaskCard, Column, etc.
+
 ┣ 📂 hooks        // Contains any custom React hooks developed for the project.
+
 ┣ 📂 utils        // Stores utility functions, such as the debounce mechanism.
+
 ┣ 📄 App.jsx       // The heart of the application, orchestrating all components.
+
 ┣ 📄 main.jsx      // Entry point for rendering the React application.
+
 ┣ 📄 db.json       // The JSON file acting as the database for JSON Server.
+
 ┣ 📄 index.css     // Global styles and TailwindCSS base configuration.
+
 ┣ 📄 tailwind.config.js // Configuration file for TailwindCSS.
+
 🧑‍💻 Get Started in Minutes
 Follow these simple steps to get KanbanFlow up and running on your local machine:
 
@@ -71,7 +79,7 @@ The application will be live at: http://localhost:5173
 Navigating and using the dashboard is straightforward:
 
 Create a New Task: Click the "➕ Add Task" button to bring up the task creation form.
-Modify or Remove a Task: Interact with the pencil (🖉) icon to edit or the trash (🗑️) icon to delete any existing task.
+Modify or Remove a Task: Interact with the task to edit or to delete any existing task.
 Reorganize Tasks: Simply click and hold a task, then drag it to your desired column (To Do, In Progress, Done).
 Find Specific Tasks: Utilize the search bar at the top to filter tasks by their titles. The search is debounced for performance.
 🧱 Architectural Insights & Design Choices
