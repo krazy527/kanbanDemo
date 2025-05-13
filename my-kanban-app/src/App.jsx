@@ -5,7 +5,7 @@ import KanbanColumn from './components/KanbanColumn';
 import AddTaskModal from './components/AddTaskModal';
 import TaskCard from './components/TaskCard';
 
-const API_URL = 'http://localhost:3000/tasks';
+const API_URL = 'https://kanbandemo.onrender.com/tasks';
 
 // Fetch all tasks from the API
 const fetchTasks = async () => {
