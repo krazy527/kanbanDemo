@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "title": "Plan project structure",
+      "description": "Break down requirements, choose tech stack",
+      "status": "in-progress",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Set up json-server",
+      "description": "Create db.json with initial data.",
+      "status": "todo"
+    },
+    {
+      "id": "3",
+      "title": "Build Kanban layout",
+      "description": "Create columns using CSS.",
+      "status": "todo"
+    },
+    {
+      "title": "Implement task display",
+      "description": "Fetch and render tasks from API.",
+      "status": "done",
+      "id": "4"
+    }
+  ]
+}
