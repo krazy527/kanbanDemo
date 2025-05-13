@@ -100,8 +100,7 @@ JSON
 (Note: status can be "todo", "inprogress", or "done")
 Optimized Search Experience: A custom debounce utility is implemented to delay the search filter execution by 500ms, preventing excessive API calls and improving UI responsiveness during typing.
 🌍 Live Preview (Optional)
-🔗 Check it out live: https://your-task-app.netlify.app
-(Remember to replace this with your actual deployment link if you host it!)
+🔗 Check it out live: https://krazykanban.netlify.app/
 
 🧪 Roadmap for Enhancements
 While KanbanFlow is already a capable tool, here are some ideas for future development:
